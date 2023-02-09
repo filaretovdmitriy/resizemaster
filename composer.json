@@ -1,0 +1,22 @@
+{
+  "name": "aisol/resize",
+  "description": "Resize image functionality",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Artem Blagoveshchenskii",
+      "email": "deamonblag@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "ext-imagick": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "aisol\\resize\\": "src"
+    }
+  }
+}
